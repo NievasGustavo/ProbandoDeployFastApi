@@ -1,0 +1,18 @@
+Cap 3 Type Hints o tipos en Python
+
+Tipado con python ejemplo:  variable: str = "Hello World" 
+Con el tipado ayuda a que el editor nos ayude mejor en el completado con el editor y
+fastapi lo usa para varias cosas.
+
+Cap 4 Config Fastapi:
+pip install fastapi[all] Sirve para instalar todo, no recomendado en desarrollo
+
+Iniciar servidor: 
+uvicorn main:app --reload
+        ^          ^
+        ^          Recargar el servidor
+        Significa el nombre del archivo
+
+documentacion en /redoc o /docs para swagger 
+
+Cap 16 MongoDB
